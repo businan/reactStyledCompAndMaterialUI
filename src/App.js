@@ -1,6 +1,6 @@
 import "./App.css";
 import MaterialUIComponents from "./components/material-ui";
-import StyledComponents from "./components/styled-comp/index";
+// import StyledComponents from "./components/styled-comp/index";
 
 function App() {
     return (
