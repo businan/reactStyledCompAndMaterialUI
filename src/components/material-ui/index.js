@@ -7,6 +7,7 @@ import TextFieldComp from "./text-field/TextFieldComp";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import { orange, green } from "@material-ui/core/colors";
 import TypographyComp from "./typography/TypographyComp";
+import Cards from "./cards/Cards";
 
 const theme = createTheme({
     palette: {
@@ -33,6 +34,9 @@ const MaterialUIComponents = () => {
         <>
             <ThemeProvider theme={theme}>
                 <TypographyComp />
+
+                <Cards />
+
                 <StyledButton />
                 <TextFieldComp />
                 <Buttons />
